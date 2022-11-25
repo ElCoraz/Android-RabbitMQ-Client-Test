@@ -1,5 +1,6 @@
 package pptik.org.rabbitmqclienttest.rabbit;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -18,184 +19,162 @@ import com.rabbitmq.client.Envelope;
 
 import java.io.IOException;
 import java.lang.reflect.Type;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeoutException;
 
 import pptik.org.rabbitmqclienttest.utilities.Message;
-
-/**
- * Created by hynra on 23/12/15.
- */
+/**************************************************************************************************/
 public class ManagerRabbitMQ {
-
+    /**********************************************************************************************/
     protected Channel mChannel = null;
     protected Connection mConnection;
-    private static final String EXCHANGE_NAME = "sabuga.chat";
+    /**********************************************************************************************/
+    private static final String EXCHANGE_NAME = "amq.direct";
     private static final String ACTION_STRING_ACTIVITY = "broadcast_event";
-
-
-    String userName = "Sabuga";
-    String password = "";
-    String virtualHost = "/SabugaRangers";
-    String serverIp = "167.205.7.229";
+    /**********************************************************************************************/
+    String userName = "admin";
+    String password = "4217777";
+    String virtualHost = "/";
+    String serverIp = "192.168.0.156";
     int port = 5672;
-
-
+    /**********************************************************************************************/
     protected boolean running;
-
-    private Context context;
-
+    /**********************************************************************************************/
+    private final Context context;
+    /**********************************************************************************************/
     public ManagerRabbitMQ(Context context) {
         this.context = context;
     }
-
-    public void dispose(){
-
+    /**********************************************************************************************/
+    public void dispose() {
         running = false;
-
         try {
-            if (mConnection!=null)
+            if (mConnection != null)
                 mConnection.close();
             if (mChannel != null)
                 mChannel.abort();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
     }
-
+    /**********************************************************************************************/
+    @SuppressLint("StaticFieldLeak")
     public void connectToRabbitMQ() {
-
-
-        if (mChannel != null && mChannel.isOpen()){//already declared
+        if (mChannel != null && mChannel.isOpen()) {
             running = true;
         }
-
-        new AsyncTask<Void,Void,Boolean>(){
-
+        new AsyncTask<Void, Void, Boolean>() {
+            /**************************************************************************************/
             @Override
             protected Boolean doInBackground(Void... voids) {
-
-                try{
-
-                    final ConnectionFactory connectionFactory = new ConnectionFactory();
-                    connectionFactory.setUsername(userName);
-                    connectionFactory.setPassword(password);
-                    connectionFactory.setVirtualHost(virtualHost);
-                    connectionFactory.setHost(serverIp);
-                    connectionFactory.setPort(port);
-                    connectionFactory.setAutomaticRecoveryEnabled(true);
-
-                    mConnection = connectionFactory.newConnection();
-                    mChannel = mConnection.createChannel();
-                    Log.i("Connect To host", "connected");
-            //        dialog.dismiss();
+                final ConnectionFactory connectionFactory = new ConnectionFactory();
+                connectionFactory.setUsername(userName);
+                connectionFactory.setPassword(password);
+                connectionFactory.setVirtualHost(virtualHost);
+                connectionFactory.setHost(serverIp);
+                connectionFactory.setPort(port);
+                connectionFactory.setAutomaticRecoveryEnabled(true);
+                try {
+                    mChannel = connectionFactory.newConnection().createChannel();
                     registerChanelHost();
-
-
-
-                    return true;
-
-                } catch (Exception e){
-                    e.printStackTrace();
-                    return false;
+                } catch (IOException | TimeoutException e) {
+                    throw new RuntimeException(e);
                 }
+                return true;
             }
-
+            /**************************************************************************************/
             @Override
             protected void onPostExecute(Boolean aBoolean) {
                 super.onPostExecute(aBoolean);
                 running = aBoolean;
             }
-
-
         }.execute();
     }
-
-    private void registerChanelListHost(){
-
-        try{
-
-            mChannel.exchangeDeclare(EXCHANGE_NAME, "topic", true);
-
+    /**********************************************************************************************/
+    private void registerChanelListHost() {
+        try {
+            mChannel.exchangeDeclare(EXCHANGE_NAME, "direct", true);
             String queueName = mChannel.queueDeclare().getQueue();
-            mChannel.queueBind(queueName, EXCHANGE_NAME, "sabuga.#");
-
+            mChannel.queueBind(queueName, EXCHANGE_NAME, "topic1");
             Consumer consumer = new DefaultConsumer(mChannel) {
                 @Override
                 public void handleDelivery(String consumerTag, Envelope envelope,
-                                           AMQP.BasicProperties properties, byte[] body) throws IOException {
-
-                    //Verify if device that send the info is different of the are receiver
+                                           AMQP.BasicProperties properties, byte[] body) {
                     getHeader(properties);
-
-                    String message = new String(body, "UTF-8");
-
+                    String message = null;
+                    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
+                        message = new String(body, StandardCharsets.UTF_8);
+                    }
                     Gson gson = new Gson();
-                    Type type = new TypeToken<List<Message>>() {}.getType();
-
+                    Type type = new TypeToken<List<Message>>() {
+                    }.getType();
                     List<Message> messageList = gson.fromJson(message, type);
-
                 }
             };
 
             mChannel.basicConsume(queueName, true, consumer);
-            //   byte[] messageBodyBytes = "Hello, world!".getBytes();
-            //   mChannel.basicPublish(EXCHANGE_NAME, routingKey, null, messageBodyBytes);
 
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
-    private void registerChanelHost(){
-
-        try{
-
-            mChannel.exchangeDeclare(EXCHANGE_NAME, "fanout", true);
-
+    /**********************************************************************************************/
+    private void registerChanelHost() {
+        try {
+            mChannel.exchangeDeclare(EXCHANGE_NAME, "direct", true);
             final String queueName = mChannel.queueDeclare().getQueue();
-            mChannel.queueBind(queueName, EXCHANGE_NAME, "");
-
+            mChannel.queueBind(queueName, EXCHANGE_NAME, "topic1");
             Consumer consumer = new DefaultConsumer(mChannel) {
+                /**********************************************************************************/
                 @Override
                 public void handleDelivery(String consumerTag, Envelope envelope,
-                                           AMQP.BasicProperties properties, byte[] body) throws IOException {
+                                           AMQP.BasicProperties properties, byte[] body) {
 
-                    String message = new String(body, "UTF-8");
+                    String message = null;
+                    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
+                        message = new String(body, StandardCharsets.UTF_8);
+                    }
                     sendBroadcast(message);
-
-
                 }
             };
-
             mChannel.basicConsume(queueName, true, consumer);
-
-        } catch (Exception e){
-            e.printStackTrace();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
-
+    /**********************************************************************************************/
     private void sendBroadcast(String msg) {
         Intent intent = new Intent(ACTION_STRING_ACTIVITY);
         intent.putExtra("message", msg);
         LocalBroadcastManager.getInstance(context).sendBroadcast(intent);
     }
-
-    private  void getHeader(AMQP.BasicProperties properties){
-
+    /**********************************************************************************************/
+    private void getHeader(AMQP.BasicProperties properties) {
         Map<String, Object> headers = properties.getHeaders();
-
-        Object deviceId =  headers.get("extraContent");
-
+        Object deviceId = headers.get("extraContent");
     }
-
-    public void sendMessage(String msg){
-        byte[] messageBodyBytes = msg.getBytes();
-        try {
-            mChannel.basicPublish(EXCHANGE_NAME, "", null, messageBodyBytes);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    /**********************************************************************************************/
+    @SuppressLint("StaticFieldLeak")
+    public void sendMessage(String msg) {
+        new AsyncTask<Void, Void, Boolean>() {
+            /**************************************************************************************/
+            @Override
+            protected Boolean doInBackground(Void... voids) {
+                try {
+                    mChannel.basicPublish(EXCHANGE_NAME, "topic1", null, msg.getBytes());
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+                return true;
+            }
+            /**************************************************************************************/
+            @Override
+            protected void onPostExecute(Boolean aBoolean) {
+                super.onPostExecute(aBoolean);
+                running = aBoolean;
+            }
+        }.execute();
     }
 }

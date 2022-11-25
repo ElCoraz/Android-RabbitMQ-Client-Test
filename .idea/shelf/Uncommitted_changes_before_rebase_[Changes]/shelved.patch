@@ -1,0 +1,2054 @@
+Index: .idea/libraries/recyclerview_v7_24_1_1.xml
+===================================================================
+diff --git a/.idea/libraries/recyclerview_v7_24_1_1.xml b/.idea/libraries/recyclerview_v7_24_1_1.xml
+deleted file mode 100644
+--- a/.idea/libraries/recyclerview_v7_24_1_1.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="recyclerview-v7-24.1.1">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/24.1.1/838116eabb437e3eac713f854074d008db583d1d/recyclerview-v7-24.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: app/src/androidTest/java/pptik/org/rabbitmqclienttest/ApplicationTest.java
+===================================================================
+diff --git a/app/src/androidTest/java/pptik/org/rabbitmqclienttest/ApplicationTest.java b/app/src/androidTest/java/pptik/org/rabbitmqclienttest/ApplicationTest.java
+deleted file mode 100644
+--- a/app/src/androidTest/java/pptik/org/rabbitmqclienttest/ApplicationTest.java	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,13 +0,0 @@
+-package pptik.org.rabbitmqclienttest;
+-
+-import android.app.Application;
+-import android.test.ApplicationTestCase;
+-
+-/**
+- * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
+- */
+-public class ApplicationTest extends ApplicationTestCase<Application> {
+-    public ApplicationTest() {
+-        super(Application.class);
+-    }
+-}
+\ No newline at end of file
+Index: .idea/libraries/support_vector_drawable_24_1_1.xml
+===================================================================
+diff --git a/.idea/libraries/support_vector_drawable_24_1_1.xml b/.idea/libraries/support_vector_drawable_24_1_1.xml
+deleted file mode 100644
+--- a/.idea/libraries/support_vector_drawable_24_1_1.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="support-vector-drawable-24.1.1">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/res" />
+-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-vector-drawable/24.1.1/fd024fab657e4958456d6efc8f137a99a94e5948/support-vector-drawable-24.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/hamcrest_core_1_3.xml
+===================================================================
+diff --git a/.idea/libraries/hamcrest_core_1_3.xml b/.idea/libraries/hamcrest_core_1_3.xml
+deleted file mode 100644
+--- a/.idea/libraries/hamcrest_core_1_3.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="hamcrest-core-1.3">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/support_annotations_24_1_1.xml
+===================================================================
+diff --git a/.idea/libraries/support_annotations_24_1_1.xml b/.idea/libraries/support_annotations_24_1_1.xml
+deleted file mode 100644
+--- a/.idea/libraries/support_annotations_24_1_1.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="support-annotations-24.1.1">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/b1b26d0688cb3129629aa4adae7d7420adc9e5be/support-annotations-24.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/amqp_client_3_5_6.xml
+===================================================================
+diff --git a/.idea/libraries/amqp_client_3_5_6.xml b/.idea/libraries/amqp_client_3_5_6.xml
+deleted file mode 100644
+--- a/.idea/libraries/amqp_client_3_5_6.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="amqp-client-3.5.6">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.5.6/6c71e410bfc671532ca2c6b672d94b0360972f8b/amqp-client-3.5.6.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.5.6/8857184f8a57189bfa10e2730f36cf5c5f98b14e/amqp-client-3.5.6-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/design_24_1_1.xml
+===================================================================
+diff --git a/.idea/libraries/design_24_1_1.xml b/.idea/libraries/design_24_1_1.xml
+deleted file mode 100644
+--- a/.idea/libraries/design_24_1_1.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="design-24.1.1">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res" />
+-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design/24.1.1/c8be87d36c312ce1abd6da6b858ea95cd6dc1faa/design-24.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/animated_vector_drawable_24_1_1.xml
+===================================================================
+diff --git a/.idea/libraries/animated_vector_drawable_24_1_1.xml b/.idea/libraries/animated_vector_drawable_24_1_1.xml
+deleted file mode 100644
+--- a/.idea/libraries/animated_vector_drawable_24_1_1.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="animated-vector-drawable-24.1.1">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/res" />
+-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/animated-vector-drawable/24.1.1/3d9a63ebb80ed6d99cfa620b4165493271fcc1ab/animated-vector-drawable-24.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: app/src/test/java/pptik/org/rabbitmqclienttest/ExampleUnitTest.java
+===================================================================
+diff --git a/app/src/test/java/pptik/org/rabbitmqclienttest/ExampleUnitTest.java b/app/src/test/java/pptik/org/rabbitmqclienttest/ExampleUnitTest.java
+deleted file mode 100644
+--- a/app/src/test/java/pptik/org/rabbitmqclienttest/ExampleUnitTest.java	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,15 +0,0 @@
+-package pptik.org.rabbitmqclienttest;
+-
+-import org.junit.Test;
+-
+-import static org.junit.Assert.*;
+-
+-/**
+- * To work on unit tests, switch the Test Artifact in the Build Variants view.
+- */
+-public class ExampleUnitTest {
+-    @Test
+-    public void addition_isCorrect() throws Exception {
+-        assertEquals(4, 2 + 2);
+-    }
+-}
+\ No newline at end of file
+Index: .idea/libraries/junit_4_12.xml
+===================================================================
+diff --git a/.idea/libraries/junit_4_12.xml b/.idea/libraries/junit_4_12.xml
+deleted file mode 100644
+--- a/.idea/libraries/junit_4_12.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="junit-4.12">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/gson_2_5.xml
+===================================================================
+diff --git a/.idea/libraries/gson_2_5.xml b/.idea/libraries/gson_2_5.xml
+deleted file mode 100644
+--- a/.idea/libraries/gson_2_5.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="gson-2.5">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.5/686c608d1805b6d4d425ec4459e88164ffc85870/gson-2.5.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.5/80dbd3fbec66835c6001c8366a324b2776cc11db/gson-2.5-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/runConfigurations.xml
+===================================================================
+diff --git a/.idea/runConfigurations.xml b/.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/.idea/runConfigurations.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,12 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/libraries/appcompat_v7_24_1_1.xml
+===================================================================
+diff --git a/.idea/libraries/appcompat_v7_24_1_1.xml b/.idea/libraries/appcompat_v7_24_1_1.xml
+deleted file mode 100644
+--- a/.idea/libraries/appcompat_v7_24_1_1.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="appcompat-v7-24.1.1">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res" />
+-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/24.1.1/8773db55ef15a8ec1752881b37c7b86e77e212a6/appcompat-v7-24.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/support_v4_24_1_1.xml
+===================================================================
+diff --git a/.idea/libraries/support_v4_24_1_1.xml b/.idea/libraries/support_v4_24_1_1.xml
+deleted file mode 100644
+--- a/.idea/libraries/support_v4_24_1_1.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ /dev/null	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="support-v4-24.1.1">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/res" />
+-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/24.1.1/1011f8c906a5f8f53eef8fd669fc3c2afebe04f7/support-v4-24.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_collections_28_0_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_collections_28_0_0.xml b/.idea/libraries/Gradle__com_android_support_collections_28_0_0.xml
+new file mode 100644
+--- /dev/null	(date 1669356978196)
++++ b/.idea/libraries/Gradle__com_android_support_collections_28_0_0.xml	(date 1669356978196)
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:collections:28.0.0">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978191)
++++ b/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml	(date 1669356978191)
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:cardview-v7:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6dd53b31cf58afb0fa71af83f3388a2a/transformed/cardview-v7-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6dd53b31cf58afb0fa71af83f3388a2a/transformed/cardview-v7-28.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6dd53b31cf58afb0fa71af83f3388a2a/transformed/cardview-v7-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_2_0_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_2_0_4.xml b/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_2_0_4.xml
+new file mode 100644
+--- /dev/null	(date 1669356978208)
++++ b/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_2_0_4.xml	(date 1669356978208)
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support.constraint:constraint-layout-solver:2.0.4">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/2.0.4/aeb283869a1d6e0d4d80db0c4dd151892738fc11/constraint-layout-solver-2.0.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_constraint_constraint_layout_2_0_4_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_2_0_4_aar.xml b/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_2_0_4_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978203)
++++ b/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_2_0_4_aar.xml	(date 1669356978203)
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support.constraint:constraint-layout:2.0.4@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8fe52f14043dd5d7a1758b402908f3da/transformed/constraint-layout-2.0.4/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8fe52f14043dd5d7a1758b402908f3da/transformed/constraint-layout-2.0.4/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8fe52f14043dd5d7a1758b402908f3da/transformed/constraint-layout-2.0.4/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978177)
++++ b/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml	(date 1669356978177)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:animated-vector-drawable:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b2f4fdf0d51b3acd507e430333e38fe8/transformed/animated-vector-drawable-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b2f4fdf0d51b3acd507e430333e38fe8/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_navigation_navigation_ui_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_navigation_navigation_ui_1_0_0_aar.xml b/.idea/libraries/Gradle__android_arch_navigation_navigation_ui_1_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978172)
++++ b/.idea/libraries/Gradle__android_arch_navigation_navigation_ui_1_0_0_aar.xml	(date 1669356978172)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.navigation:navigation-ui:1.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4cc896360d89dfeb5cbcbc665e074c17/transformed/navigation-ui-1.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4cc896360d89dfeb5cbcbc665e074c17/transformed/navigation-ui-1.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4cc896360d89dfeb5cbcbc665e074c17/transformed/navigation-ui-1.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.navigation/navigation-ui/1.0.0/af0365becbd715514f25876708c920033b4cdbc8/navigation-ui-1.0.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978186)
++++ b/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml	(date 1669356978186)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:asynclayoutinflater:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/634f82712a9ea369af8b8a2c2f62b1e0/transformed/asynclayoutinflater-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/634f82712a9ea369af8b8a2c2f62b1e0/transformed/asynclayoutinflater-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978181)
++++ b/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml	(date 1669356978181)
+@@ -0,0 +1,14 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:appcompat-v7:28.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8bd2e02e2e0defa39d5f3180f627af63/transformed/appcompat-v7-28.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8bd2e02e2e0defa39d5f3180f627af63/transformed/appcompat-v7-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8bd2e02e2e0defa39d5f3180f627af63/transformed/appcompat-v7-28.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8bd2e02e2e0defa39d5f3180f627af63/transformed/appcompat-v7-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978237)
++++ b/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml	(date 1669356978237)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:drawerlayout:28.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/eb989c95b920f59c18290f1d6c3ffaf8/transformed/drawerlayout-28.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/eb989c95b920f59c18290f1d6c3ffaf8/transformed/drawerlayout-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eb989c95b920f59c18290f1d6c3ffaf8/transformed/drawerlayout-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978233)
++++ b/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml	(date 1669356978233)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:documentfile:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/893f6e1993f77ef0895d5247fdac209a/transformed/documentfile-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/893f6e1993f77ef0895d5247fdac209a/transformed/documentfile-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978250)
++++ b/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml	(date 1669356978250)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:loader:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5cba62bf095f7cdad01959c529fae3b4/transformed/loader-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5cba62bf095f7cdad01959c529fae3b4/transformed/loader-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978244)
++++ b/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml	(date 1669356978244)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:interpolator:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/31130b92207bfd84cdce74c0c607c765/transformed/interpolator-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/31130b92207bfd84cdce74c0c607c765/transformed/interpolator-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978217)
++++ b/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml	(date 1669356978217)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:cursoradapter:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6ad3271da04c125726bd9d34f66a1f8f/transformed/cursoradapter-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6ad3271da04c125726bd9d34f66a1f8f/transformed/cursoradapter-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: app/src/main/java/pptik/org/rabbitmqclienttest/rabbit/ManagerRabbitMQ.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pptik.org.rabbitmqclienttest.rabbit;\r\n\r\nimport android.content.Context;\r\nimport android.content.Intent;\r\nimport android.os.AsyncTask;\r\nimport android.support.v4.content.LocalBroadcastManager;\r\nimport android.util.Log;\r\n\r\nimport com.google.gson.Gson;\r\nimport com.google.gson.reflect.TypeToken;\r\nimport com.rabbitmq.client.AMQP;\r\nimport com.rabbitmq.client.Channel;\r\nimport com.rabbitmq.client.Connection;\r\nimport com.rabbitmq.client.ConnectionFactory;\r\nimport com.rabbitmq.client.Consumer;\r\nimport com.rabbitmq.client.DefaultConsumer;\r\nimport com.rabbitmq.client.Envelope;\r\n\r\nimport java.io.IOException;\r\nimport java.lang.reflect.Type;\r\nimport java.util.List;\r\nimport java.util.Map;\r\n\r\nimport pptik.org.rabbitmqclienttest.utilities.Message;\r\n\r\n/**\r\n * Created by hynra on 23/12/15.\r\n */\r\npublic class ManagerRabbitMQ {\r\n\r\n    protected Channel mChannel = null;\r\n    protected Connection mConnection;\r\n    private static final String EXCHANGE_NAME = \"sabuga.chat\";\r\n    private static final String ACTION_STRING_ACTIVITY = \"broadcast_event\";\r\n\r\n\r\n    String userName = \"Sabuga\";\r\n    String password = \"\";\r\n    String virtualHost = \"/SabugaRangers\";\r\n    String serverIp = \"167.205.7.229\";\r\n    int port = 5672;\r\n\r\n\r\n    protected boolean running;\r\n\r\n    private Context context;\r\n\r\n    public ManagerRabbitMQ(Context context) {\r\n        this.context = context;\r\n    }\r\n\r\n    public void dispose(){\r\n\r\n        running = false;\r\n\r\n        try {\r\n            if (mConnection!=null)\r\n                mConnection.close();\r\n            if (mChannel != null)\r\n                mChannel.abort();\r\n        } catch (IOException e) {\r\n            // TODO Auto-generated catch block\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n\r\n    public void connectToRabbitMQ() {\r\n\r\n\r\n        if (mChannel != null && mChannel.isOpen()){//already declared\r\n            running = true;\r\n        }\r\n\r\n        new AsyncTask<Void,Void,Boolean>(){\r\n\r\n            @Override\r\n            protected Boolean doInBackground(Void... voids) {\r\n\r\n                try{\r\n\r\n                    final ConnectionFactory connectionFactory = new ConnectionFactory();\r\n                    connectionFactory.setUsername(userName);\r\n                    connectionFactory.setPassword(password);\r\n                    connectionFactory.setVirtualHost(virtualHost);\r\n                    connectionFactory.setHost(serverIp);\r\n                    connectionFactory.setPort(port);\r\n                    connectionFactory.setAutomaticRecoveryEnabled(true);\r\n\r\n                    mConnection = connectionFactory.newConnection();\r\n                    mChannel = mConnection.createChannel();\r\n                    Log.i(\"Connect To host\", \"connected\");\r\n            //        dialog.dismiss();\r\n                    registerChanelHost();\r\n\r\n\r\n\r\n                    return true;\r\n\r\n                } catch (Exception e){\r\n                    e.printStackTrace();\r\n                    return false;\r\n                }\r\n            }\r\n\r\n            @Override\r\n            protected void onPostExecute(Boolean aBoolean) {\r\n                super.onPostExecute(aBoolean);\r\n                running = aBoolean;\r\n            }\r\n\r\n\r\n        }.execute();\r\n    }\r\n\r\n    private void registerChanelListHost(){\r\n\r\n        try{\r\n\r\n            mChannel.exchangeDeclare(EXCHANGE_NAME, \"topic\", true);\r\n\r\n            String queueName = mChannel.queueDeclare().getQueue();\r\n            mChannel.queueBind(queueName, EXCHANGE_NAME, \"sabuga.#\");\r\n\r\n            Consumer consumer = new DefaultConsumer(mChannel) {\r\n                @Override\r\n                public void handleDelivery(String consumerTag, Envelope envelope,\r\n                                           AMQP.BasicProperties properties, byte[] body) throws IOException {\r\n\r\n                    //Verify if device that send the info is different of the are receiver\r\n                    getHeader(properties);\r\n\r\n                    String message = new String(body, \"UTF-8\");\r\n\r\n                    Gson gson = new Gson();\r\n                    Type type = new TypeToken<List<Message>>() {}.getType();\r\n\r\n                    List<Message> messageList = gson.fromJson(message, type);\r\n\r\n                }\r\n            };\r\n\r\n            mChannel.basicConsume(queueName, true, consumer);\r\n            //   byte[] messageBodyBytes = \"Hello, world!\".getBytes();\r\n            //   mChannel.basicPublish(EXCHANGE_NAME, routingKey, null, messageBodyBytes);\r\n\r\n        } catch (Exception e){\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n\r\n    private void registerChanelHost(){\r\n\r\n        try{\r\n\r\n            mChannel.exchangeDeclare(EXCHANGE_NAME, \"fanout\", true);\r\n\r\n            final String queueName = mChannel.queueDeclare().getQueue();\r\n            mChannel.queueBind(queueName, EXCHANGE_NAME, \"\");\r\n\r\n            Consumer consumer = new DefaultConsumer(mChannel) {\r\n                @Override\r\n                public void handleDelivery(String consumerTag, Envelope envelope,\r\n                                           AMQP.BasicProperties properties, byte[] body) throws IOException {\r\n\r\n                    String message = new String(body, \"UTF-8\");\r\n                    sendBroadcast(message);\r\n\r\n\r\n                }\r\n            };\r\n\r\n            mChannel.basicConsume(queueName, true, consumer);\r\n\r\n        } catch (Exception e){\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n\r\n    private void sendBroadcast(String msg) {\r\n        Intent intent = new Intent(ACTION_STRING_ACTIVITY);\r\n        intent.putExtra(\"message\", msg);\r\n        LocalBroadcastManager.getInstance(context).sendBroadcast(intent);\r\n    }\r\n\r\n    private  void getHeader(AMQP.BasicProperties properties){\r\n\r\n        Map<String, Object> headers = properties.getHeaders();\r\n\r\n        Object deviceId =  headers.get(\"extraContent\");\r\n\r\n    }\r\n\r\n    public void sendMessage(String msg){\r\n        byte[] messageBodyBytes = msg.getBytes();\r\n        try {\r\n            mChannel.basicPublish(EXCHANGE_NAME, \"\", null, messageBodyBytes);\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/pptik/org/rabbitmqclienttest/rabbit/ManagerRabbitMQ.java b/app/src/main/java/pptik/org/rabbitmqclienttest/rabbit/ManagerRabbitMQ.java
+--- a/app/src/main/java/pptik/org/rabbitmqclienttest/rabbit/ManagerRabbitMQ.java	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/app/src/main/java/pptik/org/rabbitmqclienttest/rabbit/ManagerRabbitMQ.java	(date 1669359365648)
+@@ -1,5 +1,6 @@
+ package pptik.org.rabbitmqclienttest.rabbit;
+ 
++import android.annotation.SuppressLint;
+ import android.content.Context;
+ import android.content.Intent;
+ import android.os.AsyncTask;
+@@ -18,184 +19,162 @@
+ 
+ import java.io.IOException;
+ import java.lang.reflect.Type;
++import java.nio.charset.StandardCharsets;
+ import java.util.List;
+ import java.util.Map;
++import java.util.concurrent.TimeoutException;
+ 
+ import pptik.org.rabbitmqclienttest.utilities.Message;
+-
+-/**
+- * Created by hynra on 23/12/15.
+- */
++/**************************************************************************************************/
+ public class ManagerRabbitMQ {
+-
++    /**********************************************************************************************/
+     protected Channel mChannel = null;
+     protected Connection mConnection;
+-    private static final String EXCHANGE_NAME = "sabuga.chat";
++    /**********************************************************************************************/
++    private static final String EXCHANGE_NAME = "amq.direct";
+     private static final String ACTION_STRING_ACTIVITY = "broadcast_event";
+-
+-
+-    String userName = "Sabuga";
+-    String password = "";
+-    String virtualHost = "/SabugaRangers";
+-    String serverIp = "167.205.7.229";
++    /**********************************************************************************************/
++    String userName = "admin";
++    String password = "4217777";
++    String virtualHost = "/";
++    String serverIp = "192.168.0.156";
+     int port = 5672;
+-
+-
++    /**********************************************************************************************/
+     protected boolean running;
+-
+-    private Context context;
+-
++    /**********************************************************************************************/
++    private final Context context;
++    /**********************************************************************************************/
+     public ManagerRabbitMQ(Context context) {
+         this.context = context;
+     }
+-
+-    public void dispose(){
+-
++    /**********************************************************************************************/
++    public void dispose() {
+         running = false;
+-
+         try {
+-            if (mConnection!=null)
++            if (mConnection != null)
+                 mConnection.close();
+             if (mChannel != null)
+                 mChannel.abort();
+         } catch (IOException e) {
+-            // TODO Auto-generated catch block
+-            e.printStackTrace();
++            throw new RuntimeException(e);
+         }
+     }
+-
++    /**********************************************************************************************/
++    @SuppressLint("StaticFieldLeak")
+     public void connectToRabbitMQ() {
+-
+-
+-        if (mChannel != null && mChannel.isOpen()){//already declared
++        if (mChannel != null && mChannel.isOpen()) {
+             running = true;
+         }
+-
+-        new AsyncTask<Void,Void,Boolean>(){
+-
++        new AsyncTask<Void, Void, Boolean>() {
++            /**************************************************************************************/
+             @Override
+             protected Boolean doInBackground(Void... voids) {
+-
+-                try{
+-
+-                    final ConnectionFactory connectionFactory = new ConnectionFactory();
+-                    connectionFactory.setUsername(userName);
+-                    connectionFactory.setPassword(password);
+-                    connectionFactory.setVirtualHost(virtualHost);
+-                    connectionFactory.setHost(serverIp);
+-                    connectionFactory.setPort(port);
+-                    connectionFactory.setAutomaticRecoveryEnabled(true);
+-
+-                    mConnection = connectionFactory.newConnection();
+-                    mChannel = mConnection.createChannel();
+-                    Log.i("Connect To host", "connected");
+-            //        dialog.dismiss();
++                final ConnectionFactory connectionFactory = new ConnectionFactory();
++                connectionFactory.setUsername(userName);
++                connectionFactory.setPassword(password);
++                connectionFactory.setVirtualHost(virtualHost);
++                connectionFactory.setHost(serverIp);
++                connectionFactory.setPort(port);
++                connectionFactory.setAutomaticRecoveryEnabled(true);
++                try {
++                    mChannel = connectionFactory.newConnection().createChannel();
+                     registerChanelHost();
+-
+-
+-
+-                    return true;
+-
+-                } catch (Exception e){
+-                    e.printStackTrace();
+-                    return false;
+-                }
++                } catch (IOException | TimeoutException e) {
++                    throw new RuntimeException(e);
++                }
++                return true;
+             }
+-
++            /**************************************************************************************/
+             @Override
+             protected void onPostExecute(Boolean aBoolean) {
+                 super.onPostExecute(aBoolean);
+                 running = aBoolean;
+             }
+-
+-
+         }.execute();
+     }
+-
+-    private void registerChanelListHost(){
+-
+-        try{
+-
+-            mChannel.exchangeDeclare(EXCHANGE_NAME, "topic", true);
+-
++    /**********************************************************************************************/
++    private void registerChanelListHost() {
++        try {
++            mChannel.exchangeDeclare(EXCHANGE_NAME, "direct", true);
+             String queueName = mChannel.queueDeclare().getQueue();
+-            mChannel.queueBind(queueName, EXCHANGE_NAME, "sabuga.#");
+-
++            mChannel.queueBind(queueName, EXCHANGE_NAME, "topic1");
+             Consumer consumer = new DefaultConsumer(mChannel) {
+                 @Override
+                 public void handleDelivery(String consumerTag, Envelope envelope,
+-                                           AMQP.BasicProperties properties, byte[] body) throws IOException {
+-
+-                    //Verify if device that send the info is different of the are receiver
++                                           AMQP.BasicProperties properties, byte[] body) {
+                     getHeader(properties);
+-
+-                    String message = new String(body, "UTF-8");
+-
++                    String message = null;
++                    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
++                        message = new String(body, StandardCharsets.UTF_8);
++                    }
+                     Gson gson = new Gson();
+-                    Type type = new TypeToken<List<Message>>() {}.getType();
+-
++                    Type type = new TypeToken<List<Message>>() {
++                    }.getType();
+                     List<Message> messageList = gson.fromJson(message, type);
+-
+                 }
+             };
+ 
+             mChannel.basicConsume(queueName, true, consumer);
+-            //   byte[] messageBodyBytes = "Hello, world!".getBytes();
+-            //   mChannel.basicPublish(EXCHANGE_NAME, routingKey, null, messageBodyBytes);
+ 
+-        } catch (Exception e){
++        } catch (Exception e) {
+             e.printStackTrace();
+         }
+     }
+-
+-    private void registerChanelHost(){
+-
+-        try{
+-
+-            mChannel.exchangeDeclare(EXCHANGE_NAME, "fanout", true);
+-
++    /**********************************************************************************************/
++    private void registerChanelHost() {
++        try {
++            mChannel.exchangeDeclare(EXCHANGE_NAME, "direct", true);
+             final String queueName = mChannel.queueDeclare().getQueue();
+-            mChannel.queueBind(queueName, EXCHANGE_NAME, "");
+-
++            mChannel.queueBind(queueName, EXCHANGE_NAME, "topic1");
+             Consumer consumer = new DefaultConsumer(mChannel) {
++                /**********************************************************************************/
+                 @Override
+                 public void handleDelivery(String consumerTag, Envelope envelope,
+-                                           AMQP.BasicProperties properties, byte[] body) throws IOException {
++                                           AMQP.BasicProperties properties, byte[] body) {
+ 
+-                    String message = new String(body, "UTF-8");
++                    String message = null;
++                    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
++                        message = new String(body, StandardCharsets.UTF_8);
++                    }
+                     sendBroadcast(message);
+-
+-
+                 }
+             };
+-
+             mChannel.basicConsume(queueName, true, consumer);
+-
+-        } catch (Exception e){
+-            e.printStackTrace();
++        } catch (Exception e) {
++            throw new RuntimeException(e);
+         }
+     }
+-
++    /**********************************************************************************************/
+     private void sendBroadcast(String msg) {
+         Intent intent = new Intent(ACTION_STRING_ACTIVITY);
+         intent.putExtra("message", msg);
+         LocalBroadcastManager.getInstance(context).sendBroadcast(intent);
+     }
+-
+-    private  void getHeader(AMQP.BasicProperties properties){
+-
++    /**********************************************************************************************/
++    private void getHeader(AMQP.BasicProperties properties) {
+         Map<String, Object> headers = properties.getHeaders();
+-
+-        Object deviceId =  headers.get("extraContent");
+-
++        Object deviceId = headers.get("extraContent");
+     }
+-
+-    public void sendMessage(String msg){
+-        byte[] messageBodyBytes = msg.getBytes();
+-        try {
+-            mChannel.basicPublish(EXCHANGE_NAME, "", null, messageBodyBytes);
+-        } catch (IOException e) {
+-            e.printStackTrace();
+-        }
++    /**********************************************************************************************/
++    @SuppressLint("StaticFieldLeak")
++    public void sendMessage(String msg) {
++        new AsyncTask<Void, Void, Boolean>() {
++            /**************************************************************************************/
++            @Override
++            protected Boolean doInBackground(Void... voids) {
++                try {
++                    mChannel.basicPublish(EXCHANGE_NAME, "topic1", null, msg.getBytes());
++                } catch (IOException e) {
++                    throw new RuntimeException(e);
++                }
++                return true;
++            }
++            /**************************************************************************************/
++            @Override
++            protected void onPostExecute(Boolean aBoolean) {
++                super.onPostExecute(aBoolean);
++                running = aBoolean;
++            }
++        }.execute();
+     }
+ }
+Index: .idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978212)
++++ b/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml	(date 1669356978212)
+@@ -0,0 +1,14 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:coordinatorlayout:28.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f1cf373c46d9fcb79b005e16c6592da7/transformed/coordinatorlayout-28.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f1cf373c46d9fcb79b005e16c6592da7/transformed/coordinatorlayout-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f1cf373c46d9fcb79b005e16c6592da7/transformed/coordinatorlayout-28.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f1cf373c46d9fcb79b005e16c6592da7/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: app/src/main/java/pptik/org/rabbitmqclienttest/utilities/Message.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pptik.org.rabbitmqclienttest.utilities;\r\n\r\n/**\r\n * Created by arysetijadiprihatmanto on 10/5/16.\r\n */\r\npublic class Message {\r\n\r\n    private String text;\r\n\r\n    public Message(String text){\r\n        this.text = text;\r\n    }\r\n\r\n    public String getText() {\r\n        return text;\r\n    }\r\n\r\n    public void setText(String text) {\r\n        this.text = text;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/pptik/org/rabbitmqclienttest/utilities/Message.java b/app/src/main/java/pptik/org/rabbitmqclienttest/utilities/Message.java
+--- a/app/src/main/java/pptik/org/rabbitmqclienttest/utilities/Message.java	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/app/src/main/java/pptik/org/rabbitmqclienttest/utilities/Message.java	(date 1669359476873)
+@@ -1,20 +1,17 @@
+ package pptik.org.rabbitmqclienttest.utilities;
+-
+-/**
+- * Created by arysetijadiprihatmanto on 10/5/16.
+- */
++/**************************************************************************************************/
+ public class Message {
+-
++    /**********************************************************************************************/
+     private String text;
+-
++    /**********************************************************************************************/
+     public Message(String text){
+         this.text = text;
+     }
+-
++    /**********************************************************************************************/
+     public String getText() {
+         return text;
+     }
+-
++    /**********************************************************************************************/
+     public void setText(String text) {
+         this.text = text;
+     }
+Index: .idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978228)
++++ b/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml	(date 1669356978228)
+@@ -0,0 +1,14 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:design:28.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1025a0216f4f85300e47d21b948498c2/transformed/design-28.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1025a0216f4f85300e47d21b948498c2/transformed/design-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1025a0216f4f85300e47d21b948498c2/transformed/design-28.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1025a0216f4f85300e47d21b948498c2/transformed/design-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: app/src/main/java/pptik/org/rabbitmqclienttest/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pptik.org.rabbitmqclienttest;\r\n\r\nimport android.content.BroadcastReceiver;\r\nimport android.content.Context;\r\nimport android.content.Intent;\r\nimport android.content.IntentFilter;\r\nimport android.os.Bundle;\r\nimport android.support.v4.content.LocalBroadcastManager;\r\nimport android.support.v7.app.AppCompatActivity;\r\nimport android.support.v7.widget.Toolbar;\r\nimport android.util.Log;\r\nimport android.view.View;\r\nimport android.view.Menu;\r\nimport android.view.MenuItem;\r\nimport android.widget.EditText;\r\nimport android.widget.ImageButton;\r\nimport android.widget.TextView;\r\n\r\nimport com.rabbitmq.client.AMQP;\r\nimport com.rabbitmq.client.Consumer;\r\nimport com.rabbitmq.client.DefaultConsumer;\r\nimport com.rabbitmq.client.Envelope;\r\n\r\nimport java.io.IOException;\r\n\r\nimport pptik.org.rabbitmqclienttest.rabbit.ManagerRabbitMQ;\r\n\r\npublic class MainActivity extends AppCompatActivity {\r\n    ManagerRabbitMQ manage;\r\n    private static final String EXCHANGE_NAME = \"sabuga.chat\";\r\n    private static String TAG_INCOMING = \"Incoming Message\";\r\n    private String TAG = getClass().getSimpleName();\r\n    private EditText boxChat;\r\n    private ImageButton btnSend;\r\n    private TextView chatMain;\r\n    private static final String ACTION_STRING_ACTIVITY = \"broadcast_event\";\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_main);\r\n        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);\r\n        setSupportActionBar(toolbar);\r\n\r\n        boxChat = (EditText)findViewById(R.id.boxChat);\r\n        btnSend = (ImageButton)findViewById(R.id.btnsend);\r\n        chatMain = (TextView)findViewById(R.id.chatMain);\r\n\r\n        manage = new ManagerRabbitMQ(MainActivity.this);\r\n        manage.connectToRabbitMQ();\r\n        btnSend.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View v) {\r\n                manage.sendMessage(boxChat.getText().toString());\r\n            }\r\n        });\r\n\r\n    }\r\n\r\n    @Override\r\n    public boolean onCreateOptionsMenu(Menu menu) {\r\n        getMenuInflater().inflate(R.menu.menu_main, menu);\r\n        return true;\r\n    }\r\n\r\n    @Override\r\n    public boolean onOptionsItemSelected(MenuItem item) {\r\n        int id = item.getItemId();\r\n\r\n        if (id == R.id.action_settings) {\r\n            return true;\r\n        }\r\n\r\n        return super.onOptionsItemSelected(item);\r\n    }\r\n\r\n\r\n\r\n    @Override\r\n    protected void onPause() {\r\n        LocalBroadcastManager.getInstance(this).unregisterReceiver(\r\n                mMessageReceiver);\r\n        super.onPause();\r\n    }\r\n\r\n    @Override\r\n    protected void onResume() {\r\n        LocalBroadcastManager.getInstance(this).registerReceiver(\r\n                mMessageReceiver, new IntentFilter(ACTION_STRING_ACTIVITY));\r\n        super.onResume();\r\n    }\r\n\r\n    @Override\r\n    protected void onDestroy(){\r\n        manage.dispose();\r\n        super.onDestroy();\r\n    }\r\n\r\n    private BroadcastReceiver mMessageReceiver = new BroadcastReceiver() {\r\n        @Override\r\n        public void onReceive(Context context, Intent intent) {\r\n          String message = intent.getStringExtra(\"message\");\r\n            chatMain.setText(chatMain.getText().toString()+\"\\n\"+message);\r\n        }\r\n    };\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/pptik/org/rabbitmqclienttest/MainActivity.java b/app/src/main/java/pptik/org/rabbitmqclienttest/MainActivity.java
+--- a/app/src/main/java/pptik/org/rabbitmqclienttest/MainActivity.java	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/app/src/main/java/pptik/org/rabbitmqclienttest/MainActivity.java	(date 1669359476878)
+@@ -1,5 +1,6 @@
+ package pptik.org.rabbitmqclienttest;
+ 
++import android.annotation.SuppressLint;
+ import android.content.BroadcastReceiver;
+ import android.content.Context;
+ import android.content.Intent;
+@@ -8,33 +9,23 @@
+ import android.support.v4.content.LocalBroadcastManager;
+ import android.support.v7.app.AppCompatActivity;
+ import android.support.v7.widget.Toolbar;
+-import android.util.Log;
+-import android.view.View;
+ import android.view.Menu;
+ import android.view.MenuItem;
+ import android.widget.EditText;
+ import android.widget.ImageButton;
+ import android.widget.TextView;
+ 
+-import com.rabbitmq.client.AMQP;
+-import com.rabbitmq.client.Consumer;
+-import com.rabbitmq.client.DefaultConsumer;
+-import com.rabbitmq.client.Envelope;
+-
+-import java.io.IOException;
+-
+ import pptik.org.rabbitmqclienttest.rabbit.ManagerRabbitMQ;
+-
++/**************************************************************************************************/
+ public class MainActivity extends AppCompatActivity {
++    /**********************************************************************************************/
+     ManagerRabbitMQ manage;
+-    private static final String EXCHANGE_NAME = "sabuga.chat";
+-    private static String TAG_INCOMING = "Incoming Message";
+-    private String TAG = getClass().getSimpleName();
++    /**********************************************************************************************/
+     private EditText boxChat;
+-    private ImageButton btnSend;
+     private TextView chatMain;
++    /**********************************************************************************************/
+     private static final String ACTION_STRING_ACTIVITY = "broadcast_event";
+-
++    /**********************************************************************************************/
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+@@ -42,65 +33,58 @@
+         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+         setSupportActionBar(toolbar);
+ 
+-        boxChat = (EditText)findViewById(R.id.boxChat);
+-        btnSend = (ImageButton)findViewById(R.id.btnsend);
+-        chatMain = (TextView)findViewById(R.id.chatMain);
++        boxChat = (EditText) findViewById(R.id.boxChat);
++        chatMain = (TextView) findViewById(R.id.chatMain);
+ 
+         manage = new ManagerRabbitMQ(MainActivity.this);
++
+         manage.connectToRabbitMQ();
+-        btnSend.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View v) {
+-                manage.sendMessage(boxChat.getText().toString());
+-            }
+-        });
+-
+-    }
+-
++
++        ((ImageButton) findViewById(R.id.btnsend)).setOnClickListener(v -> manage.sendMessage(boxChat.getText().toString()));
++
++    }
++    /**********************************************************************************************/
+     @Override
+     public boolean onCreateOptionsMenu(Menu menu) {
+         getMenuInflater().inflate(R.menu.menu_main, menu);
+         return true;
+     }
+-
++    /**********************************************************************************************/
+     @Override
+     public boolean onOptionsItemSelected(MenuItem item) {
+         int id = item.getItemId();
+-
+         if (id == R.id.action_settings) {
+             return true;
+         }
+-
+         return super.onOptionsItemSelected(item);
+     }
+-
+-
+-
++    /**********************************************************************************************/
+     @Override
+     protected void onPause() {
+         LocalBroadcastManager.getInstance(this).unregisterReceiver(
+                 mMessageReceiver);
+         super.onPause();
+     }
+-
++    /**********************************************************************************************/
+     @Override
+     protected void onResume() {
+         LocalBroadcastManager.getInstance(this).registerReceiver(
+                 mMessageReceiver, new IntentFilter(ACTION_STRING_ACTIVITY));
+         super.onResume();
+     }
+-
++    /**********************************************************************************************/
+     @Override
+-    protected void onDestroy(){
++    protected void onDestroy() {
+         manage.dispose();
+         super.onDestroy();
+     }
+-
+-    private BroadcastReceiver mMessageReceiver = new BroadcastReceiver() {
++    /**********************************************************************************************/
++    private final BroadcastReceiver mMessageReceiver = new BroadcastReceiver() {
++        @SuppressLint("SetTextI18n")
+         @Override
+         public void onReceive(Context context, Intent intent) {
+-          String message = intent.getStringExtra("message");
+-            chatMain.setText(chatMain.getText().toString()+"\n"+message);
++            String message = intent.getStringExtra("message");
++            chatMain.setText(chatMain.getText().toString() + "\n" + message);
+         }
+     };
+ }
+Index: .idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978223)
++++ b/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml	(date 1669356978223)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:customview:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/568b9f37d7a3bff2d6a2376b3d786c78/transformed/customview-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/568b9f37d7a3bff2d6a2376b3d786c78/transformed/customview-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978281)
++++ b/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml	(date 1669356978281)
+@@ -0,0 +1,14 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:support-compat:28.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e3ff9b02938005917e99766975ce311c/transformed/support-compat-28.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e3ff9b02938005917e99766975ce311c/transformed/support-compat-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e3ff9b02938005917e99766975ce311c/transformed/support-compat-28.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e3ff9b02938005917e99766975ce311c/transformed/support-compat-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_annotations_28_0_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0.xml b/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0.xml
+new file mode 100644
+--- /dev/null	(date 1669356978276)
++++ b/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0.xml	(date 1669356978276)
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:support-annotations:28.0.0">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978292)
++++ b/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml	(date 1669356978292)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:support-core-utils:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/976279579ff84d944e6beb59e2fad417/transformed/support-core-utils-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/976279579ff84d944e6beb59e2fad417/transformed/support-core-utils-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978287)
++++ b/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml	(date 1669356978287)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:support-core-ui:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dcabff4a87e7f906ed96dca0beccbe53/transformed/support-core-ui-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dcabff4a87e7f906ed96dca0beccbe53/transformed/support-core-ui-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Top-level build file where you can add configuration options common to all sub-projects/modules.\r\n\r\nbuildscript {\r\n    repositories {\r\n        jcenter()\r\n    }\r\n    dependencies {\r\n        classpath 'com.android.tools.build:gradle:2.0.0'\r\n\r\n        // NOTE: Do not place your application dependencies here; they belong\r\n        // in the individual module build.gradle files\r\n    }\r\n}\r\n\r\nallprojects {\r\n    repositories {\r\n        jcenter()\r\n    }\r\n}\r\n\r\ntask clean(type: Delete) {\r\n    delete rootProject.buildDir\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/build.gradle b/build.gradle
+--- a/build.gradle	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/build.gradle	(date 1669355785819)
+@@ -2,10 +2,11 @@
+ 
+ buildscript {
+     repositories {
++        google()
+         jcenter()
+     }
+     dependencies {
+-        classpath 'com.android.tools.build:gradle:2.0.0'
++        classpath 'com.android.tools.build:gradle:7.3.1'
+ 
+         // NOTE: Do not place your application dependencies here; they belong
+         // in the individual module build.gradle files
+@@ -14,8 +15,11 @@
+ 
+ allprojects {
+     repositories {
++        google()
+         jcenter()
+-    }
++        maven {
++            url "https://maven.google.com"
++        }    }
+ }
+ 
+ task clean(type: Delete) {
+Index: .idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978260)
++++ b/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml	(date 1669356978260)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:print:28.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a109996123b0ccedec8faeabbf49e518/transformed/print-28.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a109996123b0ccedec8faeabbf49e518/transformed/print-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a109996123b0ccedec8faeabbf49e518/transformed/print-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978255)
++++ b/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml	(date 1669356978255)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:localbroadcastmanager:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ba370e25e91912a163f60be071363f69/transformed/localbroadcastmanager-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba370e25e91912a163f60be071363f69/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978271)
++++ b/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml	(date 1669356978271)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:slidingpanelayout:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/366dada79591d5320d05f902bdadac03/transformed/slidingpanelayout-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/366dada79591d5320d05f902bdadac03/transformed/slidingpanelayout-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978265)
++++ b/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml	(date 1669356978265)
+@@ -0,0 +1,14 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:recyclerview-v7:28.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/385a51d25197f11ef5ed23af2c4f0dc3/transformed/recyclerview-v7-28.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/385a51d25197f11ef5ed23af2c4f0dc3/transformed/recyclerview-v7-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/385a51d25197f11ef5ed23af2c4f0dc3/transformed/recyclerview-v7-28.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/385a51d25197f11ef5ed23af2c4f0dc3/transformed/recyclerview-v7-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978320)
++++ b/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml	(date 1669356978320)
+@@ -0,0 +1,14 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:transition:28.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/79607bb148b60da9e6199b4f0d529d69/transformed/transition-28.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/79607bb148b60da9e6199b4f0d529d69/transformed/transition-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/79607bb148b60da9e6199b4f0d529d69/transformed/transition-28.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/79607bb148b60da9e6199b4f0d529d69/transformed/transition-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"EntryPointsManager\">\r\n    <entry_points version=\"2.0\" />\r\n  </component>\r\n  <component name=\"NullableNotNullManager\">\r\n    <option name=\"myDefaultNullable\" value=\"android.support.annotation.Nullable\" />\r\n    <option name=\"myDefaultNotNull\" value=\"android.support.annotation.NonNull\" />\r\n    <option name=\"myNullables\">\r\n      <value>\r\n        <list size=\"4\">\r\n          <item index=\"0\" class=\"java.lang.String\" itemvalue=\"org.jetbrains.annotations.Nullable\" />\r\n          <item index=\"1\" class=\"java.lang.String\" itemvalue=\"javax.annotation.Nullable\" />\r\n          <item index=\"2\" class=\"java.lang.String\" itemvalue=\"edu.umd.cs.findbugs.annotations.Nullable\" />\r\n          <item index=\"3\" class=\"java.lang.String\" itemvalue=\"android.support.annotation.Nullable\" />\r\n        </list>\r\n      </value>\r\n    </option>\r\n    <option name=\"myNotNulls\">\r\n      <value>\r\n        <list size=\"4\">\r\n          <item index=\"0\" class=\"java.lang.String\" itemvalue=\"org.jetbrains.annotations.NotNull\" />\r\n          <item index=\"1\" class=\"java.lang.String\" itemvalue=\"javax.annotation.Nonnull\" />\r\n          <item index=\"2\" class=\"java.lang.String\" itemvalue=\"edu.umd.cs.findbugs.annotations.NonNull\" />\r\n          <item index=\"3\" class=\"java.lang.String\" itemvalue=\"android.support.annotation.NonNull\" />\r\n        </list>\r\n      </value>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectInspectionProfilesVisibleTreeState\">\r\n    <entry key=\"Project Default\">\r\n      <profile-state>\r\n        <expanded-state>\r\n          <State>\r\n            <id />\r\n          </State>\r\n          <State>\r\n            <id>Encapsulation issuesJava</id>\r\n          </State>\r\n          <State>\r\n            <id>Java</id>\r\n          </State>\r\n        </expanded-state>\r\n      </profile-state>\r\n    </entry>\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"false\">\r\n    <OptionsSetting value=\"true\" id=\"Add\" />\r\n    <OptionsSetting value=\"true\" id=\"Remove\" />\r\n    <OptionsSetting value=\"true\" id=\"Checkout\" />\r\n    <OptionsSetting value=\"true\" id=\"Update\" />\r\n    <OptionsSetting value=\"true\" id=\"Status\" />\r\n    <OptionsSetting value=\"true\" id=\"Edit\" />\r\n    <ConfirmationsSetting value=\"0\" id=\"Add\" />\r\n    <ConfirmationsSetting value=\"0\" id=\"Remove\" />\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_7\" default=\"true\" assert-keyword=\"true\" jdk-15=\"true\" project-jdk-name=\"1.7\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n  <component name=\"masterDetails\">\r\n    <states>\r\n      <state key=\"ProjectJDKs.UI\">\r\n        <settings>\r\n          <last-edited>1.7</last-edited>\r\n          <splitter-proportions>\r\n            <option name=\"proportions\">\r\n              <list>\r\n                <option value=\"0.2\" />\r\n              </list>\r\n            </option>\r\n          </splitter-proportions>\r\n        </settings>\r\n      </state>\r\n    </states>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/.idea/misc.xml	(date 1669354794264)
+@@ -44,17 +44,7 @@
+       </profile-state>
+     </entry>
+   </component>
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+-    <OptionsSetting value="true" id="Add" />
+-    <OptionsSetting value="true" id="Remove" />
+-    <OptionsSetting value="true" id="Checkout" />
+-    <OptionsSetting value="true" id="Update" />
+-    <OptionsSetting value="true" id="Status" />
+-    <OptionsSetting value="true" id="Edit" />
+-    <ConfirmationsSetting value="0" id="Add" />
+-    <ConfirmationsSetting value="0" id="Remove" />
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+   <component name="ProjectType">
+Index: .idea/libraries/Gradle__com_google_code_gson_gson_2_10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_google_code_gson_gson_2_10.xml b/.idea/libraries/Gradle__com_google_code_gson_gson_2_10.xml
+new file mode 100644
+--- /dev/null	(date 1669355993896)
++++ b/.idea/libraries/Gradle__com_google_code_gson_gson_2_10.xml	(date 1669355993896)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: com.google.code.gson:gson:2.10">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10/dd9b193aef96e973d5a11ab13cd17430c2e4306b/gson-2.10.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10/fa585815e708725bcd12c9e70ae300c76ab660bd/gson-2.10-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10/6ed5748c6f0860e81e09d4d2582fe914cfa41d1e/gson-2.10-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_36.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_36.xml b/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_36.xml
+new file mode 100644
+--- /dev/null	(date 1669355964293)
++++ b/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_36.xml	(date 1669355964293)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: org.slf4j:slf4j-api:1.7.36">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.36/6c62681a2f655b49963a5983b8b0950a6120ae14/slf4j-api-1.7.36.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.36/f91b284d55365e88248e6493bc5959c8e81d5fa3/slf4j-api-1.7.36-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.36/ae9c1aae0033af915cfa75d850eb9d880f21a701/slf4j-api-1.7.36-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <resourceExtensions />\r\n    <wildcardResourcePatterns>\r\n      <entry name=\"!?*.java\" />\r\n      <entry name=\"!?*.form\" />\r\n      <entry name=\"!?*.class\" />\r\n      <entry name=\"!?*.groovy\" />\r\n      <entry name=\"!?*.scala\" />\r\n      <entry name=\"!?*.flex\" />\r\n      <entry name=\"!?*.kt\" />\r\n      <entry name=\"!?*.clj\" />\r\n      <entry name=\"!?*.aj\" />\r\n    </wildcardResourcePatterns>\r\n    <annotationProcessing>\r\n      <profile default=\"true\" name=\"Default\" enabled=\"false\">\r\n        <processorPath useClasspath=\"true\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/.idea/compiler.xml	(date 1669355804663)
+@@ -1,22 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="CompilerConfiguration">
+-    <resourceExtensions />
+-    <wildcardResourcePatterns>
+-      <entry name="!?*.java" />
+-      <entry name="!?*.form" />
+-      <entry name="!?*.class" />
+-      <entry name="!?*.groovy" />
+-      <entry name="!?*.scala" />
+-      <entry name="!?*.flex" />
+-      <entry name="!?*.kt" />
+-      <entry name="!?*.clj" />
+-      <entry name="!?*.aj" />
+-    </wildcardResourcePatterns>
+-    <annotationProcessing>
+-      <profile default="true" name="Default" enabled="false">
+-        <processorPath useClasspath="true" />
+-      </profile>
+-    </annotationProcessing>
++    <bytecodeTargetLevel target="11" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978316)
++++ b/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml	(date 1669356978316)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:swiperefreshlayout:28.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5c3296e546f977ba2e03d8c1fd646af3/transformed/swiperefreshlayout-28.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5c3296e546f977ba2e03d8c1fd646af3/transformed/swiperefreshlayout-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5c3296e546f977ba2e03d8c1fd646af3/transformed/swiperefreshlayout-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978331)
++++ b/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml	(date 1669356978331)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:viewpager:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7e93eb532e6c9617a900b3c84ffda91e/transformed/viewpager-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7e93eb532e6c9617a900b3c84ffda91e/transformed/viewpager-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978326)
++++ b/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml	(date 1669356978326)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:versionedparcelable:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/261cc0379b4da92b11975931bc608839/transformed/versionedparcelable-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/261cc0379b4da92b11975931bc608839/transformed/versionedparcelable-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_media_compat_27_0_2_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_support_media_compat_27_0_2_aar.xml b/.idea/libraries/Gradle__com_android_support_support_media_compat_27_0_2_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978302)
++++ b/.idea/libraries/Gradle__com_android_support_support_media_compat_27_0_2_aar.xml	(date 1669356978302)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:support-media-compat:27.0.2@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/84ca7fe0583a099dffd33436b7b88211/transformed/support-media-compat-27.0.2/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/84ca7fe0583a099dffd33436b7b88211/transformed/support-media-compat-27.0.2/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/84ca7fe0583a099dffd33436b7b88211/transformed/support-media-compat-27.0.2/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-media-compat/27.0.2/d2f239fdf3519cb8e4a7bfb07bffc358d9065a21/support-media-compat-27.0.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978297)
++++ b/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml	(date 1669356978297)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:support-fragment:28.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/73d64f017743fda90d2336469525718c/transformed/support-fragment-28.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/73d64f017743fda90d2336469525718c/transformed/support-fragment-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/73d64f017743fda90d2336469525718c/transformed/support-fragment-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_rabbitmq_amqp_client_5_16_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_rabbitmq_amqp_client_5_16_0.xml b/.idea/libraries/Gradle__com_rabbitmq_amqp_client_5_16_0.xml
+new file mode 100644
+--- /dev/null	(date 1669355964289)
++++ b/.idea/libraries/Gradle__com_rabbitmq_amqp_client_5_16_0.xml	(date 1669355964289)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: com.rabbitmq:amqp-client:5.16.0">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/5.16.0/c70c66a8e5a92e41adf618efa7d8025db29cdf3/amqp-client-5.16.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/5.16.0/4acc5237e878bd24903d18cec08dc2e0b0960330/amqp-client-5.16.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/5.16.0/9238a185d975a374b0aaf99657cfb73686786e7b/amqp-client-5.16.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml b/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978312)
++++ b/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml	(date 1669356978312)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:support-vector-drawable:28.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a6ae0093441a7599cbc1813efbe71407/transformed/support-vector-drawable-28.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a6ae0093441a7599cbc1813efbe71407/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>apply plugin: 'com.android.application'\r\n\r\nandroid {\r\n    compileSdkVersion 23\r\n    buildToolsVersion \"23.0.3\"\r\n\r\n    defaultConfig {\r\n        applicationId \"pptik.org.rabbitmqclienttest\"\r\n        minSdkVersion 15\r\n        targetSdkVersion 23\r\n        versionCode 1\r\n        versionName \"1.0\"\r\n    }\r\n    buildTypes {\r\n        release {\r\n            minifyEnabled false\r\n            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'\r\n        }\r\n    }\r\n}\r\n\r\ndependencies {\r\n    compile fileTree(dir: 'libs', include: ['*.jar'])\r\n    testCompile 'junit:junit:4.12'\r\n    compile 'com.android.support:appcompat-v7:24.1.1'\r\n    compile 'com.android.support:design:24.1.1'\r\n    compile 'com.rabbitmq:amqp-client:3.5.6'\r\n    compile 'com.google.code.gson:gson:2.5'\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+--- a/app/build.gradle	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/app/build.gradle	(date 1669356925601)
+@@ -1,13 +1,13 @@
+ apply plugin: 'com.android.application'
+ 
+ android {
+-    compileSdkVersion 23
++    compileSdkVersion 33
+     buildToolsVersion "23.0.3"
+ 
+     defaultConfig {
+         applicationId "pptik.org.rabbitmqclienttest"
+         minSdkVersion 15
+-        targetSdkVersion 23
++        targetSdkVersion 33
+         versionCode 1
+         versionName "1.0"
+     }
+@@ -20,10 +20,17 @@
+ }
+ 
+ dependencies {
+-    compile fileTree(dir: 'libs', include: ['*.jar'])
+-    testCompile 'junit:junit:4.12'
+-    compile 'com.android.support:appcompat-v7:24.1.1'
+-    compile 'com.android.support:design:24.1.1'
+-    compile 'com.rabbitmq:amqp-client:3.5.6'
+-    compile 'com.google.code.gson:gson:2.5'
++    //noinspection GradleCompatible
++    implementation 'com.rabbitmq:amqp-client:5.16.0'
++    implementation 'com.google.code.gson:gson:2.10'
++
++    //noinspection GradleCompatible
++    implementation 'com.android.support:appcompat-v7:27.0.2'
++    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
++    //noinspection GradleCompatible
++    implementation 'com.android.support:design:27.0.2'
++    //noinspection GradleCompatible
++    implementation 'com.android.support:support-v4:27.0.2'
++    implementation 'android.arch.navigation:navigation-fragment:1.0.0'
++    implementation 'android.arch.navigation:navigation-ui:1.0.0'
+ }
+Index: .idea/libraries/Gradle__com_android_support_support_v4_27_0_2_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_android_support_support_v4_27_0_2_aar.xml b/.idea/libraries/Gradle__com_android_support_support_v4_27_0_2_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978307)
++++ b/.idea/libraries/Gradle__com_android_support_support_v4_27_0_2_aar.xml	(date 1669356978307)
+@@ -0,0 +1,12 @@
++<component name="libraryTable">
++  <library name="Gradle: com.android.support:support-v4:27.0.2@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/46042a45f04e85d52f4df1868c72eda8/transformed/support-v4-27.0.2/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/46042a45f04e85d52f4df1868c72eda8/transformed/support-v4-27.0.2/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/27.0.2/5b8f86fea035328fc9e8c660773037a3401ce25f/support-v4-27.0.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"myModules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/.idea/gradle.xml	(date 1669355445409)
+@@ -1,17 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
++        <option name="testRunner" value="GRADLE" />
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="gradleJvm" value="Android Studio default JDK" />
+         <option name="modules">
+-          <set>
+-            <option value="$PROJECT_DIR$" />
+-            <option value="$PROJECT_DIR$/app" />
+-          </set>
+-        </option>
+-        <option name="myModules">
+           <set>
+             <option value="$PROJECT_DIR$" />
+             <option value="$PROJECT_DIR$/app" />
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/Android-RabbitMQ-Client-Test.iml\" filepath=\"$PROJECT_DIR$/Android-RabbitMQ-Client-Test.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Android-RabbitMQ-Client-Test.iml\" filepath=\"$PROJECT_DIR$/Android-RabbitMQ-Client-Test.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/app/app.iml\" filepath=\"$PROJECT_DIR$/app/app.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/app/app.iml\" filepath=\"$PROJECT_DIR$/app/app.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/.idea/modules.xml	(date 1669355815676)
+@@ -2,10 +2,11 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
+-      <module fileurl="file://$PROJECT_DIR$/Android-RabbitMQ-Client-Test.iml" filepath="$PROJECT_DIR$/Android-RabbitMQ-Client-Test.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/Android-RabbitMQ-Client-Test.iml" filepath="$PROJECT_DIR$/Android-RabbitMQ-Client-Test.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-RabbitMQ-Client-Test.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-RabbitMQ-Client-Test.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-RabbitMQ-Client-Test.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-RabbitMQ-Client-Test.app.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-RabbitMQ-Client-Test.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-RabbitMQ-Client-Test.app.androidTest.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-RabbitMQ-Client-Test.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-RabbitMQ-Client-Test.app.main.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-RabbitMQ-Client-Test.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-RabbitMQ-Client-Test.app.unitTest.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1669355815690)
++++ b/.idea/jarRepositories.xml	(date 1669355815690)
+@@ -0,0 +1,30 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="BintrayJCenter" />
++      <option name="name" value="BintrayJCenter" />
++      <option name="url" value="https://jcenter.bintray.com/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="maven" />
++      <option name="name" value="maven" />
++      <option name="url" value="https://maven.google.com" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="Google" />
++      <option name="name" value="Google" />
++      <option name="url" value="https://dl.google.com/dl/android/maven2/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    package=\"pptik.org.rabbitmqclienttest\">\r\n    <uses-permission android:name=\"android.permission.INTERNET\" />\r\n\r\n    <application\r\n        android:allowBackup=\"true\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:label=\"@string/app_name\"\r\n        android:supportsRtl=\"true\"\r\n        android:theme=\"@style/AppTheme\">\r\n        <activity\r\n            android:name=\".MainActivity\"\r\n            android:label=\"@string/app_name\"\r\n            android:theme=\"@style/AppTheme.NoActionBar\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\" />\r\n                <category android:name=\"android.intent.category.LAUNCHER\" />\r\n            </intent-filter>\r\n        </activity>\r\n    </application>\r\n\r\n</manifest>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+--- a/app/src/main/AndroidManifest.xml	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/app/src/main/AndroidManifest.xml	(date 1669356846744)
+@@ -12,7 +12,8 @@
+         <activity
+             android:name=".MainActivity"
+             android:label="@string/app_name"
+-            android:theme="@style/AppTheme.NoActionBar">
++            android:theme="@style/AppTheme.NoActionBar"
++            android:exported="true">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Mon Dec 28 10:00:20 PST 2015\r\ndistributionBase=GRADLE_USER_HOME\r\ndistributionPath=wrapper/dists\r\nzipStoreBase=GRADLE_USER_HOME\r\nzipStorePath=wrapper/dists\r\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-2.10-all.zip\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/gradle/wrapper/gradle-wrapper.properties b/gradle/wrapper/gradle-wrapper.properties
+--- a/gradle/wrapper/gradle-wrapper.properties	(revision ffac2c1df48fcdff1ad706024e81608de7e41d18)
++++ b/gradle/wrapper/gradle-wrapper.properties	(date 1669355693717)
+@@ -1,6 +1,6 @@
+-#Mon Dec 28 10:00:20 PST 2015
++#Fri Nov 25 11:54:53 ALMT 2022
+ distributionBase=GRADLE_USER_HOME
++distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip
+ distributionPath=wrapper/dists
+-zipStoreBase=GRADLE_USER_HOME
+ zipStorePath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-2.10-all.zip
++zipStoreBase=GRADLE_USER_HOME
+Index: .idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml b/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978131)
++++ b/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml	(date 1669356978131)
+@@ -0,0 +1,12 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.core:runtime:1.1.1@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b189bf74c26ef55ac94497424dbc9cae/transformed/runtime-1.1.1/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b189bf74c26ef55ac94497424dbc9cae/transformed/runtime-1.1.1/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.core/runtime/1.1.1/25df553df10af32bede9dd768a2d15299543d84/runtime-1.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_core_common_1_1_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_core_common_1_1_1.xml b/.idea/libraries/Gradle__android_arch_core_common_1_1_1.xml
+new file mode 100644
+--- /dev/null	(date 1669356978127)
++++ b/.idea/libraries/Gradle__android_arch_core_common_1_1_1.xml	(date 1669356978127)
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.core:common:1.1.1">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/ae9b923fc99c1fc5a7a9b6cedc6df8b2b8529c54/common-1.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_navigation_navigation_common_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_navigation_navigation_common_1_0_0_aar.xml b/.idea/libraries/Gradle__android_arch_navigation_navigation_common_1_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978157)
++++ b/.idea/libraries/Gradle__android_arch_navigation_navigation_common_1_0_0_aar.xml	(date 1669356978157)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.navigation:navigation-common:1.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c1698f8a412d0c9c48c6d5f8ccc62e42/transformed/navigation-common-1.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c1698f8a412d0c9c48c6d5f8ccc62e42/transformed/navigation-common-1.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c1698f8a412d0c9c48c6d5f8ccc62e42/transformed/navigation-common-1.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.navigation/navigation-common/1.0.0/de4f013332c12020346e670301f2950b995b3ccd/navigation-common-1.0.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml b/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978153)
++++ b/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml	(date 1669356978153)
+@@ -0,0 +1,12 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.lifecycle:viewmodel:1.1.1@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/33a74007066cbc5378c58f982c7e4728/transformed/viewmodel-1.1.1/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/33a74007066cbc5378c58f982c7e4728/transformed/viewmodel-1.1.1/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/viewmodel/1.1.1/d1cc8e805317f171be63c68341f499acda7e42d6/viewmodel-1.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_navigation_navigation_runtime_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_navigation_navigation_runtime_1_0_0_aar.xml b/.idea/libraries/Gradle__android_arch_navigation_navigation_runtime_1_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978168)
++++ b/.idea/libraries/Gradle__android_arch_navigation_navigation_runtime_1_0_0_aar.xml	(date 1669356978168)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.navigation:navigation-runtime:1.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/81c33dce764d141f3d5025ac1a06efd4/transformed/navigation-runtime-1.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81c33dce764d141f3d5025ac1a06efd4/transformed/navigation-runtime-1.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81c33dce764d141f3d5025ac1a06efd4/transformed/navigation-runtime-1.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.navigation/navigation-runtime/1.0.0/fc575d297c8c49c50f6288d789ff617657992f93/navigation-runtime-1.0.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_navigation_navigation_fragment_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_navigation_navigation_fragment_1_0_0_aar.xml b/.idea/libraries/Gradle__android_arch_navigation_navigation_fragment_1_0_0_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978164)
++++ b/.idea/libraries/Gradle__android_arch_navigation_navigation_fragment_1_0_0_aar.xml	(date 1669356978164)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.navigation:navigation-fragment:1.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/737091e2ce2118eaaa3b4f6ef62f1e25/transformed/navigation-fragment-1.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/737091e2ce2118eaaa3b4f6ef62f1e25/transformed/navigation-fragment-1.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/737091e2ce2118eaaa3b4f6ef62f1e25/transformed/navigation-fragment-1.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.navigation/navigation-fragment/1.0.0/d3ddef8af9d3ec5b2cff1988d8231080b31459be/navigation-fragment-1.0.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml b/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978140)
++++ b/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml	(date 1669356978140)
+@@ -0,0 +1,12 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.lifecycle:livedata:1.1.1@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ad6f6703cc2176f4fd2710b36e3a555e/transformed/livedata-1.1.1/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ad6f6703cc2176f4fd2710b36e3a555e/transformed/livedata-1.1.1/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/livedata/1.1.1/bf27acaa4953c98cd519756ed7b7caacf94407d4/livedata-1.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1.xml b/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1.xml
+new file mode 100644
+--- /dev/null	(date 1669356978136)
++++ b/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1.xml	(date 1669356978136)
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.lifecycle:common:1.1.1">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/bcdaa509a856d1430e736b102f899aa9870a8f83/common-1.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml b/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978149)
++++ b/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml	(date 1669356978149)
+@@ -0,0 +1,12 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.lifecycle:runtime:1.1.1@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/81b22fa2205aef28dd6df0260d8028bf/transformed/runtime-1.1.1/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81b22fa2205aef28dd6df0260d8028bf/transformed/runtime-1.1.1/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/runtime/1.1.1/8e4214221b3797b863dc9998d16abb4af043e784/runtime-1.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml b/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml
+new file mode 100644
+--- /dev/null	(date 1669356978145)
++++ b/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml	(date 1669356978145)
+@@ -0,0 +1,12 @@
++<component name="libraryTable">
++  <library name="Gradle: android.arch.lifecycle:livedata-core:1.1.1@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/20042d07198ee6772d942f030b8baea6/transformed/livedata-core-1.1.1/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/20042d07198ee6772d942f030b8baea6/transformed/livedata-core-1.1.1/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/livedata-core/1.1.1/c38818e006ea7a408c05e3090364332d46494ef/livedata-core-1.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
