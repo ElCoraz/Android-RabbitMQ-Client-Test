@@ -12,7 +12,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.TextView;
 
 import pptik.org.rabbitmqclienttest.rabbit.ManagerRabbitMQ;
@@ -30,17 +29,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        boxChat = (EditText) findViewById(R.id.boxChat);
-        chatMain = (TextView) findViewById(R.id.chatMain);
+        boxChat = findViewById(R.id.boxChat);
+        chatMain = findViewById(R.id.chatMain);
 
         manage = new ManagerRabbitMQ(MainActivity.this);
 
         manage.connectToRabbitMQ();
 
-        ((ImageButton) findViewById(R.id.btnsend)).setOnClickListener(v -> manage.sendMessage(boxChat.getText().toString()));
+        findViewById(R.id.btnsend).setOnClickListener(v -> manage.sendMessage(boxChat.getText().toString()));
 
     }
     /**********************************************************************************************/
